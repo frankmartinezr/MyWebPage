@@ -1,0 +1,39 @@
+
+/*header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+nav {
+    padding-right: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    nav {
+        padding-right: 0px;
+    }
+}*/
+
+main {
+    margin-top: 0px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.pad-horizontal {
+    padding-left: 8px;
+    padding-right: 8px;
+}
